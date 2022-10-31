@@ -65,6 +65,15 @@ class _LoginScreenState extends State<LoginScreen> {
               },
             ),
           ),
+          Container(
+            child: Row(children: <Widget>[Text('Dose not have account?'),
+            FlatButton(onPressed: () {
+              //Action signup screen
+            },textColor: Colors.blue, child: Text('Sign in',style: TextStyle(fontSize: 20),))
+            ],
+            mainAxisAlignment: MainAxisAlignment.center,
+            ),
+          )
       ]),
     ));
   }
