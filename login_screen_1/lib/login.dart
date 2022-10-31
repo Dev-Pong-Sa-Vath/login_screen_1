@@ -45,6 +45,13 @@ class _LoginScreenState extends State<LoginScreen> {
             decoration: InputDecoration(border: OutlineInputBorder(), labelText: 'Password'),
           ),
           ),
+          FlatButton(
+            onPressed: () {
+              //Action
+            },
+            textColor: Colors.blue,
+            child: Text('Forgot Password'),
+          ),
       ]),
     ));
   }
