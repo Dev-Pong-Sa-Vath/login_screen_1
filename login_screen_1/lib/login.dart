@@ -30,6 +30,14 @@ class _LoginScreenState extends State<LoginScreen> {
             padding: EdgeInsets.all(10),
             child: Text('Sigin'),
           ),
+           Container(
+            padding: EdgeInsets.all(10),
+            child: TextField(
+              controller: nameController,
+              decoration: InputDecoration(
+                  border: OutlineInputBorder(), labelText: 'User Name'),
+            ),
+          ),
       ]),
     ));
   }
