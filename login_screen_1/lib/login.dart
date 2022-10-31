@@ -52,6 +52,19 @@ class _LoginScreenState extends State<LoginScreen> {
             textColor: Colors.blue,
             child: Text('Forgot Password'),
           ),
+          Container(
+            height: 50,
+            padding: EdgeInsets.fromLTRB(10, 0, 10, 0),
+            child: RaisedButton(
+              textColor: Colors.white,
+              color: Colors.blue,
+              child: Text('Login'),
+              onPressed: () {
+                print(nameController.text);
+                print(passwordController.text);
+              },
+            ),
+          ),
       ]),
     ));
   }
