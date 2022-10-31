@@ -25,7 +25,11 @@ class _LoginScreenState extends State<LoginScreen> {
                 color: Colors.blue, fontWeight: FontWeight.w500, fontSize: 30),
           ),
         ),
-        Container(padding: EdgeInsets.fromLTRB(10, 10, 10, 0),child: TextField(obscureText: true,),)
+           Container(
+            alignment: Alignment.center,
+            padding: EdgeInsets.all(10),
+            child: Text('Sigin'),
+          ),
       ]),
     ));
   }
